@@ -23,6 +23,7 @@ void setup() {
   Serial.println(webServer.getIpAddr());
 
   screenCoordinator.initScreen();
+
 }
 
 void loop() {
